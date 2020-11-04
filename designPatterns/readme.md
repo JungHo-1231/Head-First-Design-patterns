@@ -1,4 +1,5 @@
-![Design Patterns book cover](Design Patterns book cover.png)
+
+![](Design-Patterns-book-cover.png)
 
 ---
 

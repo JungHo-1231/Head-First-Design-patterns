@@ -1,4 +1,4 @@
-package chapter2;
+package chapter2.bookExample;
 
 import java.util.ArrayList;
 
@@ -20,7 +20,7 @@ public class WeatherData implements Subject {
     @Override
     public void removeObserver(Observer o) {
         int i = observer.indexOf(o);
-        if(i>0){
+        if (i > 0) {
             observer.remove(i);
         }
     }
@@ -28,16 +28,16 @@ public class WeatherData implements Subject {
     @Override
     public void notifyObserver() {
         for (int i = 0; i < observer.size(); i++) {
-            Observer observer = (Observer)this.observer.get(i);
+            Observer observer = (Observer) this.observer.get(i);
             observer.update(temperature, humidity, pressure);
         }
     }
 
-    public void measurementsChanged(){
+    public void measurementsChanged() {
         notifyObserver();
     }
 
-    public void setMeasurements(float temperature, float humidity, float pressure){
+    public void setMeasurements(float temperature, float humidity, float pressure) {
         this.temperature = temperature;
         this.humidity = humidity;
         this.pressure = pressure;

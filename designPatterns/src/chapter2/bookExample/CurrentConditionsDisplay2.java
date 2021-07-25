@@ -1,4 +1,4 @@
-package chapter2;
+package chapter2.bookExample;
 
 import java.util.Observable;
 import java.util.Observer;

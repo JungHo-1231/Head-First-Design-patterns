@@ -1,4 +1,4 @@
-package chapter2;
+package chapter2.bookExample;
 
 public class CurrentConditionsDisplay implements Observer, DisplayElement {
     private float temperature;

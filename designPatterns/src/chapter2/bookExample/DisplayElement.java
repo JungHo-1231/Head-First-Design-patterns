@@ -1,4 +1,4 @@
-package chapter2;
+package chapter2.bookExample;
 
 public interface DisplayElement {
     public void display();

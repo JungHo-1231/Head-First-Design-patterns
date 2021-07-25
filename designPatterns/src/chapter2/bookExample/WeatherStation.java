@@ -1,4 +1,4 @@
-package chapter2;
+package chapter2.bookExample;
 
 public class WeatherStation {
     public static void main(String[] args) {
@@ -9,5 +9,6 @@ public class WeatherStation {
         weatherData2.setMeasurements(80, 65, 30.4F);
         weatherData2.setMeasurements(82, 70, 29.2F);
         weatherData2.setMeasurements(78, 90, 29.2F);
+
     }
 }
